@@ -17,3 +17,7 @@ me.sayHello = function() {
 };
 
 me.sayHello();
+
+delete me.sayHello;
+
+me.sayHello();
