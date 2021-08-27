@@ -13,5 +13,6 @@ const Person = (function (){
 }());
 
 const me = new Person('Lee');
-console.log(me.constructor);
+console.log(me.constructor === Person);
+console.log(me.constructor === Object);
 me.sayHello();
