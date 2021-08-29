@@ -12,3 +12,6 @@ const parent = {
 Object.setPrototypeOf(me, parent);
 
 me.sayHello();
+
+console.log(me.constructor === Person);
+console.log(me.constructor === Object);
