@@ -7,3 +7,6 @@ console.log('name' in person);
 console.log('address' in person);
 console.log('age' in person);
 console.log('toString' in person);
+
+console.log(Reflect.has(person, 'name'));
+console.log(Reflect.has(person, 'toString'));
