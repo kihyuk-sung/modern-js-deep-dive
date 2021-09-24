@@ -2,4 +2,4 @@
   'use strict';
 
   // Do something
-})
+}());
