@@ -6,3 +6,6 @@ class Person {
 
 console.log(typeof Person);
 console.dir(Person);
+
+const me = new Person('Lee');
+console.log(me);
