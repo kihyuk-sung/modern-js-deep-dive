@@ -11,3 +11,11 @@ class Person {
 const me = new Person('Lee');
 
 me.sayHi();
+
+console.log(Object.getPrototypeOf(me) === Person.prototype);
+console.log(me instanceof Person);
+
+console.log(Object.getPrototypeOf(Person.prototype) === Object.prototype);
+console.log(me instanceof Object);
+
+console.log(me.constructor === Person);
