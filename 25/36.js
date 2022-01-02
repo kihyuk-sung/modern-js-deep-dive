@@ -19,3 +19,6 @@ console.log(`${me.firstName} ${me.lastName}`);
 me.fullName = 'Heegun Lee';
 console.log(me.fullName);
 console.log(Object.getOwnPropertyDescriptor(Person.prototype, 'fullName'));
+
+console.log(Object.getOwnPropertyNames(me));
+console.log(Object.getOwnPropertyNames(Object.getPrototypeOf(me)));
