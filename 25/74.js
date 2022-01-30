@@ -1,5 +1,7 @@
 class Rectangle {
   constructor(width, height) {
+    console.log(this);
+    console.log(new.target);
     this.width = width;
     this.height = height;
   }
