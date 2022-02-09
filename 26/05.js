@@ -10,3 +10,6 @@ const obj = {
 
 console.log(obj.foo());
 console.log(obj.bar());
+
+new obj.foo();
+new obj.bar();
