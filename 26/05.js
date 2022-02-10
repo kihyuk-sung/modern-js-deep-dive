@@ -11,5 +11,7 @@ const obj = {
 console.log(obj.foo());
 console.log(obj.bar());
 
-new obj.foo();
+//new obj.foo();
 new obj.bar();
+console.log(obj.foo.hasOwnProperty('prototype'));
+console.log(obj.bar.hasOwnProperty('prototype'));
