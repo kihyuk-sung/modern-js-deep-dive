@@ -4,8 +4,9 @@ class Prefixer {
   }
 
   add (arr) {
+    const that = this
     return arr.map(function (item) {
-      return this.prefix + item;
+      return that.prefix + item;
     });
   }
 }
