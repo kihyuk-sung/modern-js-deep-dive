@@ -9,3 +9,5 @@ arr[100] = 199;
 
 console.log(arr);
 console.log(arr.length);
+
+console.log(Object.getOwnPropertyDescriptors(arr));
