@@ -11,3 +11,5 @@ console.log(arr);
 console.log(arr.length);
 
 console.log(Object.getOwnPropertyDescriptors(arr));
+arr[1] = 10
+console.log(arr);
