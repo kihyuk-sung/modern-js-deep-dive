@@ -16,4 +16,5 @@ const promiseGet = url => {
 const wrongUrl = 'https://jsonplaceholder.typicode.com/XXX/1';
 
 promiseGet(wrongUrl)
-  .then(res => console.log(re), err => console.error(err));
+  .then(res => console.log(re))
+  .catch(err => console.error(err));
